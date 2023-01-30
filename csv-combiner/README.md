@@ -11,7 +11,8 @@ Initially, script will
 * ensure the arguments are indeed csv files
 * headers of each file match. 
 
-If any of these requirements are not met, the script will stop running and output the appropriate message. If all requirements are met, script will then check if "combined.csv" already exists in directory, if it does then it will be removed. The script will then loop through each csv file line by line, adding it to the combined.csv. 
+If any of these requirements are not met, the script will stop running and output the appropriate message. If all requirements are met, script will then check if "combined.csv" already exists in directory, if it does then it will be removed. The script will then loop through each csv file line by line, adding it to the combined.csv.
+
 If you see,
 ```
 > combined.csv 
