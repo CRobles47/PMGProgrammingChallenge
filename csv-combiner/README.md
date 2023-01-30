@@ -14,6 +14,6 @@ Initially, script will
 If any of these requirements are not met, the script will stop running and output the appropriate message. If all requirements are met, script will then check if "combined.csv" already exists in directory, if it does then it will be removed. The script will then loop through each csv file line by line, adding it to the combined.csv. 
 If you see,
 ```
-"> combined.csv" 
+> combined.csv 
 ```
 in output, then the script has run successfully and you can open the newly created file to see the result.
